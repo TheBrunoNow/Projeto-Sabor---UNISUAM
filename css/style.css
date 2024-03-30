@@ -57,6 +57,13 @@
     color: #ffffff;
 }
 
+
+/** Tela bem pequena **/
+.navbar-toggler{
+    margin-left: -60px;
+    margin-right: -20px;
+}   
+
 /**DECORAÇÃO DO UNDERLINE DOS LINKS DO MENU**/
 
 @media (min-width: 985px) {
@@ -91,11 +98,6 @@
 /* media screen para modo celular e tablet com menu hamburguer*/
 @media (min-width: 300px) and (max-width: 991px) {
 
-    .navbar-toggler{
-        margin-bottom: 0px;
-    }
-    
-
     .navbar-toggler-icon{
 
         margin-bottom: 0px;
@@ -120,8 +122,7 @@
     }
 
    
-}
-
+}   
 
 
 /*dark mod*/
