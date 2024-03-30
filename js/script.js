@@ -19,9 +19,9 @@ window.addEventListener('scroll', function() {
     navbar.style.marginRight = '0'; 
     navbar.style.borderRadius = '0';
   } else {
-    navbar.style.marginLeft = '50px';
+    navbar.style.marginLeft = '28px';
     navbar.style.marginTop = '20px';
-    navbar.style.marginRight = '50px'; 
+    navbar.style.marginRight = '28px'; 
     navbar.style.borderRadius = '16px';
   }
 });
