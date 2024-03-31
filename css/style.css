@@ -202,18 +202,6 @@ body.dark {
     height: 20px; /* define a altura */
     background-color: #fff; 
 }
-
-
-/*Define uma cor especifica para o icone do*/
-.icon_insta_footer a{
-    color: white;
-    transition: .5s ease-in-out;/* faz uma animação transicionando o hover ou QUALQUER outra coisa*/
-}
-.icon_insta_footer a:hover{ /* altera a cor do icone do instagram para a cor desejada*/
-    color: #862F35;
-}
-
-
 /* Ajuste conforme a altura da barra de navegação */
 
 main {
@@ -221,8 +209,7 @@ main {
 }
 
 
-
-/*Footer*/
+/*------------------Footer-----------------------------*/
 
 /*isso deixa o footer sempre no fundo sem precisar de conteudo para empurrar ele*/
 .wrapper {
@@ -239,10 +226,10 @@ main {
     width: 150px;
 }
 .footer{
-    padding-top: 40px;
+    padding-top: 35px;
 }
 .social-midia-footer a {
-    margin-left: 20px;
+    margin-left: 10px;
     color: white;
 }
 .social-midia-footer a:hover {
@@ -253,9 +240,6 @@ main {
 }
 .info-footer li{
  list-style: none;
-}
-.footer h4{
-    text-transform: uppercase;
 }
 .info-footer li a {
     color: white;
@@ -322,4 +306,61 @@ main {
     transition: all 0.3s ease;
 
 }
+
+
+
+
+
+
+    /*--------------------------------CONTATO---------------------------------*/
+
+    
+
+/*Personalização do formulario*/
+
+.container_formulario {
+    max-width: 500px;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: -5px;
+    background-color: #862F35; 
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.container_informativo {
+    max-width: 500px;
+    margin-top: 15px;
+    margin-right: -5px;
+    margin-left: auto;
+    background-color: #862F35; 
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.texto_formulario{
+    color: #fff;
+}
+
+
+.botao_formulario{
+    background-color: #96383e;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.botao_formulario:hover{
+    background-color: #491d20;
+    color: #fff;
+
+}
+
+.texto_justificado_formulario{
+    text-align: justify;
+    color: #fff;
+  }
 
